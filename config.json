@@ -1,5 +1,5 @@
 {
-  "proxy_url": "http://localhost:5006",
+  "proxy_url": "https://sainobroexy.onrender.com",
   "token_prefix": "/",
   "local_listen_port": 10000,
   "description": "im_abi"
