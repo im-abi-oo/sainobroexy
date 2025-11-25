@@ -7,8 +7,6 @@
   },
   "scripts": {
     "wrangler-login": "wrangler login",
-    
-    // ✨ این خط در اجرای Deployment Command شما حیاتی است ✨
     "deploy-cf-page": "echo 'Starting Cloudflare Pages deployment...' && wrangler pages deploy"
   },
   "dependencies": { },
