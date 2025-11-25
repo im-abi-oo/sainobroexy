@@ -1,6 +1,6 @@
 {
   "proxy_url": "https:// sainobroexy.rsaii1385.workers.dev",
   "token_prefix": "/",
-  "local_listen_port": 10000,
+  "local_listen_port": 5006,
   "description": "im_abi"
 }
