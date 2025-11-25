@@ -1,5 +1,5 @@
 {
-  "proxy_url": "https://sainobroexy.onrender.com",
+  "proxy_url": "https://sainobroexy.vercel.app",
   "token_prefix": "/",
   "local_listen_port": 10000,
   "description": "im_abi"
