@@ -5,9 +5,6 @@
   // ✨ این خط را برای اتصال فایل اجرایی اضافه کنید ✨
   "main": "bundle.cjs",
   
-  // این خط را حذف یا کامنت کنید اگر پروژه شما یک سایت استاتیک نیست
-  "pages_build_output_dir": "build/cf_page",
-
   "compatibility_date": "2025-07-23",
   "compatibility_flags": ["nodejs_compat"],
   "observability": {
