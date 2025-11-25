@@ -1,16 +1,18 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "sainobroexy", 
-  
-  "main": "bundle.cjs",
-  
-  "compatibility_date": "2025-07-23",
-  "compatibility_flags": ["nodejs_compat"],
-  "observability": {
-    "enabled": true
+  "name": "siteproxy",
+  "bin": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "22.x"
   },
-  "vars": {
-    "proxy_url": "https://testx-efr.pages.dev", 
-    "token_prefix": "/xxxx/" 
+  "scripts": {
+    "wrangler-login": "wrangler login",
+    
+    // ✨ این خط در اجرای Deployment Command شما حیاتی است ✨
+    "deploy-cf-page": "echo 'Starting Cloudflare Pages deployment...' && wrangler pages deploy"
+  },
+  "dependencies": { },
+  "devDependencies": {
+    "wrangler": "^4.25.1"
   }
 }
