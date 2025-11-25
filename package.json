@@ -7,10 +7,10 @@
   },
   "scripts": {
     "wrangler-login": "wrangler login",
+    "deploy-cf-worker": "echo 'Deployment failed (Pages is required).'", 
     
-    "deploy-cf-worker": "echo 'Starting Cloudflare deployment...' && wrangler deploy --config wrangler.jsonc",
+    "deploy-cf-page": "echo 'Starting Cloudflare Pages deployment...' && wrangler pages deploy", 
     
-    "deploy-cf-page": "echo 'Deploy to Cloudflare with: wrangler pages deploy' && wrangler pages deploy",
     "start": "node bundle.cjs"
   },
   "dependencies": { },
