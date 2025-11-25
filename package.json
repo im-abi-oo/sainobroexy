@@ -7,7 +7,7 @@
   },
   "scripts": {
     "wrangler-login": "wrangler login",
-    "deploy-cf-worker": "echo 'Deploy to Cloudflare with: wrangler deploy --config wrangler.worker.jsonc' && wrangler deploy --config wrangler.worker.jsonc",
+    "deploy-cf-worker": "echo 'Deploy to Cloudflare with: wrangler deploy --config wrangler.jsonc' && wrangler deploy --config wrangler.jsonc",
     "deploy-cf-page": "echo 'Deploy to Cloudflare with: wrangler pages deploy' && wrangler pages deploy",
     "start": "node bundle.cjs"
   },
