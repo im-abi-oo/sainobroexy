@@ -14,7 +14,7 @@
     "enabled": true
   },
   "vars": {
-    "proxy_url": "https://testx-efr.pages.dev", 
-    "token_prefix": "/xxxx/" 
+    "proxy_url": "https://sainobroexy.rsaii1385.workers.dev", 
+    "token_prefix": "/" 
   }
 }
