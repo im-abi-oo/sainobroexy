@@ -1,6 +1,6 @@
 {
-  "proxy_url": "https://sainobroexy-hiyt.onrender.com",
-  "token_prefix": "/two/",
+  "proxy_url": "px.twofile.ir",
+  "token_prefix": "/",
   "local_listen_port": 10000,
   "description": "Hello world"
 }
